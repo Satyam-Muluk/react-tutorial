@@ -1,5 +1,5 @@
- 
- 
+ import React from "react";
+ import ReactDOM from "react-dom/client";
 //  creating like this structure
 //  <div id="parent">
 //     <div id="child">
@@ -15,7 +15,7 @@
 const parent = React.createElement("div",{id:"parent"},
     [
     React.createElement("div",{id:"child"},
-        [React.createElement("h1",{},"Nested heading"),React.createElement("h2",{},"Sibling heading")]
+        [React.createElement("h1",{},"Namaste react"),React.createElement("h2",{},"Sibling heading")]
     ),
     React.createElement("div",{id:"child2"},
         [React.createElement("h1",{},"Nested heading 2"),React.createElement("h2",{},"Sibling heading 2")]
